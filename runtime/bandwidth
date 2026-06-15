@@ -1,0 +1,10 @@
+if [ -z $1 ]; then
+     ready=$(axireg -dec 0x1004)
+    nready=$(axireg -dec 0x1008) 
+    printf "%i, %i\n" $ready $nready      
+    exit 0
+fi
+
+axireg 0x1004 $1
+axireg 0x1008 $2
+
