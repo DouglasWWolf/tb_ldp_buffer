@@ -225,7 +225,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>65964353</spirit:value>
+            <spirit:value>54d016aa</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -238,7 +238,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>65964353</spirit:value>
+            <spirit:value>54d016aa</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -596,12 +596,12 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>DATA_FIFO_SECTIONS</spirit:name>
         <spirit:displayName>Data Fifo Sections</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DATA_FIFO_SECTIONS">2</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DATA_FIFO_SECTIONS">4</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="string">
         <spirit:name>DATA_FIFO_RAM_TYPE</spirit:name>
         <spirit:displayName>Data Fifo Ram Type</spirit:displayName>
-        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DATA_FIFO_RAM_TYPE">auto</spirit:value>
+        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DATA_FIFO_RAM_TYPE">block</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>SUPPORT_FIFO_DEPTH</spirit:name>
@@ -643,12 +643,12 @@
     <spirit:parameter>
       <spirit:name>DATA_FIFO_SECTIONS</spirit:name>
       <spirit:displayName>Data Fifo Sections</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.DATA_FIFO_SECTIONS">2</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.DATA_FIFO_SECTIONS">4</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>DATA_FIFO_RAM_TYPE</spirit:name>
       <spirit:displayName>Data Fifo Ram Type</spirit:displayName>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.DATA_FIFO_RAM_TYPE">auto</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.DATA_FIFO_RAM_TYPE">block</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>SUPPORT_FIFO_DEPTH</spirit:name>
@@ -675,7 +675,7 @@
         <xilinx:designToolContext>IPI</xilinx:designToolContext>
       </xilinx:designToolContexts>
       <xilinx:coreRevision>1</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2026-06-30T16:30:48Z</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2026-06-30T18:09:52Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2021.1</xilinx:xilinxVersion>

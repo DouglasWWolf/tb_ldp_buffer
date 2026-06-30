@@ -28,8 +28,8 @@ module ldp_buffer #
 (
     parameter DW=512,
     parameter DATA_FIFO_DEPTH = 32768,
-    parameter DATA_FIFO_SECTIONS = 2,
-    parameter DATA_FIFO_RAM_TYPE = "auto",
+    parameter DATA_FIFO_SECTIONS = 4,
+    parameter DATA_FIFO_RAM_TYPE = "block",
     parameter SUPPORT_FIFO_DEPTH = 16
 )
 (
