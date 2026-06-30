@@ -1,0 +1,10 @@
+export()
+{
+    echo ">>> $1 <<<"
+    cp $1 ~/fpga/u55c_ldp_emu/src/ldp_manager/$1  
+}
+
+export ldp_buffer.v
+export ldp_fstat_fifo.v
+export ldp_fifo.v 
+export ldp_slice.v

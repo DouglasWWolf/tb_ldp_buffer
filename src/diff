@@ -1,0 +1,11 @@
+show_diff()
+{
+    echo ">>> $1 <<<"
+    diff $1 ~/fpga/u55c_ldp_emu/src/ldp_manager/$1  
+}
+
+show_diff ldp_buffer.v
+show_diff ldp_fstat_fifo.v
+show_diff ldp_fifo.v
+show_diff ldp_slice.v
+

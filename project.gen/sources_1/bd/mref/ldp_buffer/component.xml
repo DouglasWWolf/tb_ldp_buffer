@@ -225,7 +225,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>7ffa2b16</spirit:value>
+            <spirit:value>65964353</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -238,7 +238,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>7ffa2b16</spirit:value>
+            <spirit:value>65964353</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -591,7 +591,17 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>DATA_FIFO_DEPTH</spirit:name>
         <spirit:displayName>Data Fifo Depth</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DATA_FIFO_DEPTH">16</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DATA_FIFO_DEPTH">32768</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>DATA_FIFO_SECTIONS</spirit:name>
+        <spirit:displayName>Data Fifo Sections</spirit:displayName>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DATA_FIFO_SECTIONS">2</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="string">
+        <spirit:name>DATA_FIFO_RAM_TYPE</spirit:name>
+        <spirit:displayName>Data Fifo Ram Type</spirit:displayName>
+        <spirit:value spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.DATA_FIFO_RAM_TYPE">auto</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>SUPPORT_FIFO_DEPTH</spirit:name>
@@ -613,7 +623,7 @@
       <spirit:file>
         <spirit:name>xgui/ldp_buffer_v1_0.tcl</spirit:name>
         <spirit:fileType>tclSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_50477468</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_b14382ed</spirit:userFileType>
         <spirit:userFileType>XGUI_VERSION_2</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
@@ -628,7 +638,17 @@
     <spirit:parameter>
       <spirit:name>DATA_FIFO_DEPTH</spirit:name>
       <spirit:displayName>Data Fifo Depth</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.DATA_FIFO_DEPTH">16</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.DATA_FIFO_DEPTH">32768</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>DATA_FIFO_SECTIONS</spirit:name>
+      <spirit:displayName>Data Fifo Sections</spirit:displayName>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.DATA_FIFO_SECTIONS">2</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>DATA_FIFO_RAM_TYPE</spirit:name>
+      <spirit:displayName>Data Fifo Ram Type</spirit:displayName>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.DATA_FIFO_RAM_TYPE">auto</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>SUPPORT_FIFO_DEPTH</spirit:name>
@@ -655,7 +675,7 @@
         <xilinx:designToolContext>IPI</xilinx:designToolContext>
       </xilinx:designToolContexts>
       <xilinx:coreRevision>1</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2026-06-24T00:18:31Z</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2026-06-30T16:30:48Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2021.1</xilinx:xilinxVersion>
